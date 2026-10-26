@@ -1,0 +1,16 @@
+# PlatformIO build tree — 556 MB, regenerate with `pio run`
+.pio/
+
+# Python
+__pycache__/
+*.pyc
+
+# Generated maps and analysis output
+tools/out/
+
+# Downloaded 3DEP DEM tiles (they encode a location; refetch with dem_check.py)
+tools/.cache/
+
+# Field captures: raw NMEA straight off the receiver, kept local
+# (the walk logs carry real positions — see README "Field captures")
+logs/
